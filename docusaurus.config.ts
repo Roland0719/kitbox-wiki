@@ -35,7 +35,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Roland0719/kitbox-wiki/tree/main/',
+          // Az editUrl törlésével/kikommentelésével eltűnik a gomb az oldal aljáról:
+          // editUrl: 'https://github.com/Roland0719/kitbox-wiki/tree/main/',
         },
       } satisfies Preset.Options,
     ],
@@ -49,7 +50,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: 'My Site Logo',
+        alt: 'KitBox Logo',
         src: 'img/logo.webp',
       },
       items: [
